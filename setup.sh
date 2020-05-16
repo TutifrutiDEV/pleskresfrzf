@@ -48,7 +48,7 @@ fi
 echo "[+] Blacklisting plesk servers"
 echo "127.0.0.1 leika.plesk.com" >> /etc/hosts
 echo "[+] Activating.."
-(cd "$SW_ENGINE_COMMAND $PLESK_HOME/admin/plib/api-cli/license.php -i $KEY")
+(cd "$PLESK_HOME/admin/plib/api-cli/license.php -i $KEY")
 
 systemctl daemon-reload
 
