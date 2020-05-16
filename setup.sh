@@ -5,7 +5,7 @@ if [ "$EUID" -ne 0 ]; then
 	exit
 fi
 
-KEY="/opt/pleskcrack/key.xml"
+KEY="/opt/key.xml"
 
 
 PLESK_HOME="/opt/psa/"
@@ -21,7 +21,7 @@ if [ ! -d $PLESK_HOME ]; then
 fi
 
 echo "[+] Copying stuff to /opt/ .."
-cp -r . "/opt/pleskcrack"
+cp -r . "/opt/"
 
 SW_ENGINE_COMMAND="sw-engine"
 
@@ -48,7 +48,9 @@ fi
 echo "[+] Blacklisting plesk servers"
 echo "127.0.0.1 leika.plesk.com" >> /etc/hosts
 echo "[+] Activating.."
-(cd "/opt/psa/admin/plib/api-cli/license.php -i $KEY")
+/opt/psa/admin/plib/api-cli/license.php -i $KEY
+
+
 
 systemctl daemon-reload
 
@@ -56,4 +58,4 @@ echo "[+] Starting sw-engine and sw-cp-server.service"
 systemctl start sw-engine.service
 systemctl start sw-cp-server.service
 
-echo "[+] Done!!"
+echo "[+] Done!! Nulled By Tutifruti !!"
