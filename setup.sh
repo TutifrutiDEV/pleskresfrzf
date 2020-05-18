@@ -5,7 +5,7 @@ if [ "$EUID" -ne 0 ]; then
 	exit
 fi
 
-KEY="/opt/corredplsz.xml"
+KEY="/opt/key.xml"
 
 
 PLESK_HOME="/opt/psa/"
