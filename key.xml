@@ -34,7 +34,7 @@
    <!--Number of mailnames-->
    <plesk-unified:mailnames core:type="integer">unlimited</plesk-unified:mailnames>
    <!--Number of additional language pack(s)-->
-   <plesk-unified:language-packs core:type="integer">100</plesk-unified:language-packs>
+   <plesk-unified:language-packs core:type="integer">0</plesk-unified:language-packs>
    <plesk-unified:mpc-id core:hidden="true" core:type="integer">0</plesk-unified:mpc-id>
    <plesk-unified:mpc-disabled core:hidden="true" core:type="boolean">false</plesk-unified:mpc-disabled>
    <!--Google tools-->
