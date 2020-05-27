@@ -58,4 +58,4 @@ echo "[+] Starting sw-engine and sw-cp-server.service"
 systemctl start sw-engine.service
 systemctl start sw-cp-server.service
 
-echo "[+] Done!! Nulled By Tutifruti !!"
+echo "[+] Done!! Nulled Script By Tutifruti !!"
