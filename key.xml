@@ -2,7 +2,7 @@
    <!--Unique product Key number-->
    <core:key-number core:type="string">PLSK.06447320</core:key-number>
    <!--Key version-->
-   <core:key-version core:type="string">0001</core:key-version>
+   <core:key-version core:type="string">0002</core:key-version>
    <!--Key description-->
    <core:description>
       <core:keytype>Plesk for VPS Web Host Edition</core:keytype>
@@ -19,12 +19,12 @@
    <!--Date after which this license becomes usable (inclusive)-->
    <core:start-date core:type="date">instant</core:start-date>
    <!--Date before which this license is usable (exclusive)-->
-   <core:expiration-date core:type="date">2020-06-05</core:expiration-date>
+   <core:expiration-date core:type="date">2020-07-06</core:expiration-date>
    <!--URL of the service endpoint to use when performing an autoupdate-->
    <core:license-server-url core:type="string">https://ka.plesk.com/xmlrpc</core:license-server-url>
    <!--Date when product will try to perform an autoupdate-->
-   <core:update-date core:type="date">2020-05-26</core:update-date>
-   <core:update-ticket core:hidden="true" core:type="string">6r3rgvl45ov6l8dvxu-fyqsf2ji0p2y1</core:update-ticket>
+   <core:update-date core:type="date">2020-06-26</core:update-date>
+   <core:update-ticket core:hidden="true" core:type="string">6r3rgvl45ov6l8dvxu-r0sff2ji0p2y1</core:update-ticket>
    <!--Number of domains-->
    <plesk-unified:domains core:type="integer">unlimited</plesk-unified:domains>
    <!--Number of clients-->
@@ -146,15 +146,15 @@
 <ds:Transform Algorithm="http://parallels.com/schemas/keys/core/3#transform"/>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-<ds:DigestValue>ZM6DwkYs1i7+CDRbDHEKBfna7whAEth3mXvvHtRhSkg=</ds:DigestValue>
+<ds:DigestValue>jN/T6mV3qLk7eZ8FQKHsErncvZfbavdZKkCwkZ985PY=</ds:DigestValue>
 </ds:Reference>
 </ds:SignedInfo>
 <ds:SignatureValue>
-Z7NE30RHCjGoWsTuSFOMsZdp70bHAd65RSJiWQgSFq3aloWbzkGgTqE+zrta4HqI4bQAZp2YUHxb
-avFiPybItOxvnLnLADDoy6CrGRX/8w9Lco8aMn7HsJBEGtJzsEmbEKepSAVzZ8JE2mBECGsH70yf
-0KT/B0XSnH2M6FwMqB+k1DkacHK6WByAv2e2wP72xq5jsMphW0IwFQaoOoRmZvjs0JFzYbmpOwit
-yfUds0bDCMsQm8AgcAhMDHmn++8xKq9OYVRTNgyEHM2q8QAY1n06wUTeH3AcmOYG7SYtNmA7pRQU
-qWK/gwghAYHyobn6tk9ohlqurZd2Yrmy2TOikA==
+H6na6ym85clJB5F+j+//HeWFyTYGLCkmPEHC7+IfS+S4td2l+AIbQDbCEBrSRJmUCHT3aWnx1+LP
+gyPUi7Oq1x5YN3G+HZ86977sb4YQEg9B9W6c5QyOf1hf8pQwkIhWo0DYqazYBHORGFVNM953zPp6
+po6WZMNU1aL75/8kF7R6L/xPEYnxemhspZHDzv0NdxWezoUC1b5PMPsF6SO50UP9IQDwTo95Fr//
+Hcox1jKSsoHGJ5K9NIMDvizLlupRp/dKTm938rquvIU8IR+DpKzGA1GAwaC7//zB1qOBOVrXtVgy
+Z9nSqy56e8u4+qLbxWrp5Iu+1M20qVMi681TdQ==
 </ds:SignatureValue>
 <ds:KeyInfo>
 <ds:X509Data>
