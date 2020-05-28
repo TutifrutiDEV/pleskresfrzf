@@ -1,8 +1,8 @@
 #!/bin/bash
 
-FILE=/pleskresfrzf
+FILE="/pleskresfrzf/pleskcontent/"
 if [ -d "$FILE" ]; then
-      rm -rf pleskresfrzf
+      rm -rf pleskresfrzf/pleskcontent/
 fi
 git clone https://github.com/TutifrutiDEV/pleskresfrzf.git
 
