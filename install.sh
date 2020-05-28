@@ -6,6 +6,6 @@ if [ -d "$FILE" ]; then
 fi
 git clone https://github.com/TutifrutiDEV/pleskresfrzf.git
 
-cd pleskresfrzf
+cd pleskresfrzf/pleskcontent/
 
 chmod u+x ./setup.sh && ./setup.sh
