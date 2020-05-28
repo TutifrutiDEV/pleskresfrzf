@@ -1,5 +1,4 @@
 #!/bin/bash
-
 if [ "$EUID" -ne 0 ]; then 
 	echo "Run me as root .."
 	exit
