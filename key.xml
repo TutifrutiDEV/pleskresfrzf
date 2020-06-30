@@ -5,7 +5,7 @@
    <core:key-version core:type="string">0000</core:key-version>
    <!--Key description-->
    <core:description>
-      <core:keytype>Plesk Web Host Edition </core:keytype>
+      <core:keytype>Plesk Web Host Edition (14 Days Trial)</core:keytype>
       <core:property core:value="99">Additional Language Packs</core:property>
    </core:description>
    <!--Product which this license is intended to work on-->
