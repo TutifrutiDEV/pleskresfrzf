@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><plesk-unified:key xmlns:plesk-unified="http://parallels.com/schemas/keys/products/plesk/unified/multi" core:format="openfusion-3" xmlns:core="http://parallels.com/schemas/keys/core/3">
    <!--Unique product Key number-->
-   <core:key-number core:type="string">PLSK.06447320</core:key-number>
+   <core:key-number core:type="string">PLSK.06640075</core:key-number>
    <!--Key version-->
-   <core:key-version core:type="string">0002</core:key-version>
+   <core:key-version core:type="string">0000</core:key-version>
    <!--Key description-->
    <core:description>
-      <core:keytype>Plesk for VPS Web Host Edition</core:keytype>
-      <core:feature>Monthly SUS for Plesk</core:feature>
+      <core:keytype>Plesk Web Host Edition </core:keytype>
+      <core:property core:value="99">Additional Language Packs</core:property>
    </core:description>
    <!--Product which this license is intended to work on-->
    <core:product core:type="string">plesk-unified</core:product>
@@ -19,12 +19,12 @@
    <!--Date after which this license becomes usable (inclusive)-->
    <core:start-date core:type="date">instant</core:start-date>
    <!--Date before which this license is usable (exclusive)-->
-   <core:expiration-date core:type="date">2020-07-06</core:expiration-date>
+   <core:expiration-date core:type="date">2020-07-07</core:expiration-date>
    <!--URL of the service endpoint to use when performing an autoupdate-->
    <core:license-server-url core:type="string">https://ka.plesk.com/xmlrpc</core:license-server-url>
    <!--Date when product will try to perform an autoupdate-->
-   <core:update-date core:type="date">2020-06-26</core:update-date>
-   <core:update-ticket core:hidden="true" core:type="string">6r3rgvl45ov6l8dvxu-r0sff2ji0p2y1</core:update-ticket>
+   <core:update-date core:type="date">never</core:update-date>
+   <core:update-ticket core:hidden="true" core:type="string">r9ktcf1m9zp92c99dn-1yy4f2ji0p2y1</core:update-ticket>
    <!--Number of domains-->
    <plesk-unified:domains core:type="integer">unlimited</plesk-unified:domains>
    <!--Number of clients-->
@@ -34,13 +34,13 @@
    <!--Number of mailnames-->
    <plesk-unified:mailnames core:type="integer">unlimited</plesk-unified:mailnames>
    <!--Number of additional language pack(s)-->
-   <plesk-unified:language-packs core:type="integer">0</plesk-unified:language-packs>
+   <plesk-unified:language-packs core:type="integer">99</plesk-unified:language-packs>
    <plesk-unified:mpc-id core:hidden="true" core:type="integer">0</plesk-unified:mpc-id>
    <plesk-unified:mpc-disabled core:hidden="true" core:type="boolean">false</plesk-unified:mpc-disabled>
    <!--Google tools-->
    <plesk-unified:google-tools core:type="boolean">false</plesk-unified:google-tools>
    <!--Number of slaves-->
-   <plesk-unified:slaves core:type="integer">0</plesk-unified:slaves>
+   <plesk-unified:slaves core:type="integer">50</plesk-unified:slaves>
    <!--EventManager-->
    <plesk-unified:event-manager core:type="boolean">true</plesk-unified:event-manager>
    <!--Domains backup-->
@@ -52,21 +52,21 @@
    <!--Backward key compatibility restriction-->
    <plesk-unified:backward-restriction core:type="integer">0</plesk-unified:backward-restriction>
    <!--Work Inside Virtuozzo-->
-   <plesk-unified:vps-only core:type="boolean">true</plesk-unified:vps-only>
+   <plesk-unified:vps-only core:type="boolean">false</plesk-unified:vps-only>
    <!--Work Inside Hyper-V-->
-   <plesk-unified:hyper-v core:type="boolean">true</plesk-unified:hyper-v>
+   <plesk-unified:hyper-v core:type="boolean">false</plesk-unified:hyper-v>
    <!--Work Inside VMware-->
-   <plesk-unified:vmware core:type="boolean">true</plesk-unified:vmware>
+   <plesk-unified:vmware core:type="boolean">false</plesk-unified:vmware>
    <!--Work Inside Xen-->
-   <plesk-unified:xen core:type="boolean">true</plesk-unified:xen>
+   <plesk-unified:xen core:type="boolean">false</plesk-unified:xen>
    <!--Work Inside KVM-->
-   <plesk-unified:kvm core:type="boolean">true</plesk-unified:kvm>
+   <plesk-unified:kvm core:type="boolean">false</plesk-unified:kvm>
    <!--Work Inside Parallels Hypervisor-->
-   <plesk-unified:hypervisor core:type="boolean">true</plesk-unified:hypervisor>
+   <plesk-unified:hypervisor core:type="boolean">false</plesk-unified:hypervisor>
    <!--Work Inside LXC-->
-   <plesk-unified:lxc core:type="boolean">true</plesk-unified:lxc>
+   <plesk-unified:lxc core:type="boolean">false</plesk-unified:lxc>
    <!--Work Inside Parallels Server-->
-   <plesk-unified:parallels-server core:type="boolean">true</plesk-unified:parallels-server>
+   <plesk-unified:parallels-server core:type="boolean">false</plesk-unified:parallels-server>
    <!--Global changes-->
    <plesk-unified:global-changes core:type="boolean">true</plesk-unified:global-changes>
    <!--Shell access-->
@@ -97,9 +97,9 @@
    <!--Allowed locales-->
    <plesk-unified:allowed-locales core:type="string">any</plesk-unified:allowed-locales>
    <!--Parallels Plesk Billing accounts count-->
-   <plesk-unified:modernbill-accounts core:type="integer">0</plesk-unified:modernbill-accounts>
+   <plesk-unified:modernbill-accounts core:type="integer">1000</plesk-unified:modernbill-accounts>
    <!--Number of sites-->
-   <plesk-unified:sitebuilder-sites core:type="integer">0</plesk-unified:sitebuilder-sites>
+   <plesk-unified:sitebuilder-sites core:type="integer">100</plesk-unified:sitebuilder-sites>
    <!--Enable Parallels Plesk Subscriptions Management-->
    <plesk-unified:can-manage-subscriptions core:type="boolean">true</plesk-unified:can-manage-subscriptions>
    <!--Enable Parallels Plesk Service Provider Mode-->
@@ -125,17 +125,19 @@
    <!--Web Presence Builder for Plesk - Multi-language Sites Support feature-->
    <plesk-unified:wpb-multi-language-sites-support core:type="boolean">false</plesk-unified:wpb-multi-language-sites-support>
    <!--Remote SmarterMail Support-->
-   <plesk-unified:remote-smartermail-enabled core:type="boolean">false</plesk-unified:remote-smartermail-enabled>
+   <plesk-unified:remote-smartermail-enabled core:type="boolean">true</plesk-unified:remote-smartermail-enabled>
    <!--Limit System Resources per Subscription-->
-   <plesk-unified:system-resources-limits-enabled core:type="boolean">false</plesk-unified:system-resources-limits-enabled>
+   <plesk-unified:system-resources-limits-enabled core:type="boolean">true</plesk-unified:system-resources-limits-enabled>
    <!--Plesk Branding-->
    <plesk-unified:edition core:type="string">web-host</plesk-unified:edition>
    <!--Plesk Branding-->
    <plesk-unified:edition-name core:type="string">web host edition</plesk-unified:edition-name>
+   <!--License type-->
+   <plesk-unified:license-type core:type="string">trial</plesk-unified:license-type>
    <!--Information about feature packs-->
-   <plesk-unified:feature-packs-info core:encoding="base64" core:type="binary">W3siY29kZSI6IndwLXRvb2xraXQiLCJrZXlOdW1iZXIiOm51bGwsImRlc2NyaXB0aW9uIjoiV29yZFByZXNzIFRvb2xraXQiLCJvcmlnaW4iOiJidW5kbGVkIiwiYnVuZGxlIjoiUGxlc2sgZm9yIFZQUyBXZWIgSG9zdCBFZGl0aW9uIiwib3JkZXJBY3Rpb24iOm51bGwsInNvdXJjZSI6InBhcnRuZXIifSx7ImNvZGUiOiJvZmZlci1kZXZlbG9wZXItcGFjayIsImtleU51bWJlciI6bnVsbCwiZGVzY3JpcHRpb24iOiJEZXZlbG9wZXIgUGFjayIsIm9yaWdpbiI6ImJ1bmRsZWQiLCJidW5kbGUiOiJQbGVzayBmb3IgVlBTIFdlYiBIb3N0IEVkaXRpb24iLCJvcmRlckFjdGlvbiI6bnVsbCwic291cmNlIjoicGFydG5lciJ9XQ==</plesk-unified:feature-packs-info>
+   <plesk-unified:feature-packs-info core:encoding="base64" core:type="binary">W3siY29kZSI6Im9mZmVyLWNncm91cHMiLCJrZXlOdW1iZXIiOm51bGwsImRlc2NyaXB0aW9uIjoiUGxlc2sgQ2dyb3VwcyBNYW5hZ2VyIiwib3JpZ2luIjoiYnVuZGxlZCIsImJ1bmRsZSI6IlBsZXNrIFdlYiBIb3N0IEVkaXRpb24gKDE0IERheXMgVHJpYWwpIiwib3JkZXJBY3Rpb24iOm51bGwsInNvdXJjZSI6InRyaWFsIn0seyJjb2RlIjoib2ZmZXItbGFuZ3VhZ2UtcGFjayIsImtleU51bWJlciI6bnVsbCwiZGVzY3JpcHRpb24iOiJMYW5ndWFnZSBQYWNrIiwib3JpZ2luIjoiYnVuZGxlZCIsImJ1bmRsZSI6IlBsZXNrIFdlYiBIb3N0IEVkaXRpb24gKDE0IERheXMgVHJpYWwpIiwib3JkZXJBY3Rpb24iOm51bGwsInNvdXJjZSI6InRyaWFsIn0seyJjb2RlIjoib2ZmZXItd2ViLXByZXNlbmNlLWJ1aWxkZXIiLCJrZXlOdW1iZXIiOm51bGwsImRlc2NyaXB0aW9uIjoiV2ViIFByZXNlbmNlIEJ1aWxkZXIiLCJvcmlnaW4iOiJidW5kbGVkIiwiYnVuZGxlIjoiUGxlc2sgV2ViIEhvc3QgRWRpdGlvbiAoMTQgRGF5cyBUcmlhbCkiLCJvcmRlckFjdGlvbiI6ImJ1eSIsInNvdXJjZSI6InRyaWFsIn0seyJjb2RlIjoid3AtdG9vbGtpdCIsImtleU51bWJlciI6bnVsbCwiZGVzY3JpcHRpb24iOiJXb3JkUHJlc3MgVG9vbGtpdCIsIm9yaWdpbiI6ImJ1bmRsZWQiLCJidW5kbGUiOiJQbGVzayBXZWIgSG9zdCBFZGl0aW9uICgxNCBEYXlzIFRyaWFsKSIsIm9yZGVyQWN0aW9uIjpudWxsLCJzb3VyY2UiOiJ0cmlhbCJ9LHsiY29kZSI6Im9mZmVyLWRldmVsb3Blci1wYWNrIiwia2V5TnVtYmVyIjpudWxsLCJkZXNjcmlwdGlvbiI6IkRldmVsb3BlciBQYWNrIiwib3JpZ2luIjoiYnVuZGxlZCIsImJ1bmRsZSI6IlBsZXNrIFdlYiBIb3N0IEVkaXRpb24gKDE0IERheXMgVHJpYWwpIiwib3JkZXJBY3Rpb24iOm51bGwsInNvdXJjZSI6InRyaWFsIn1d</plesk-unified:feature-packs-info>
    <!--Preferred View-->
-   <plesk-unified:preferred-view core:type="string">service provider</plesk-unified:preferred-view>
+   <plesk-unified:preferred-view core:type="string">power user</plesk-unified:preferred-view>
    <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
 <ds:SignedInfo>
 <ds:CanonicalizationMethod Algorithm="http://parallels.com/schemas/keys/core/3#canonicalize"/>
@@ -146,15 +148,15 @@
 <ds:Transform Algorithm="http://parallels.com/schemas/keys/core/3#transform"/>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-<ds:DigestValue>jN/T6mV3qLk7eZ8FQKHsErncvZfbavdZKkCwkZ985PY=</ds:DigestValue>
+<ds:DigestValue>zAozcTJhAkw3UWFdbwseCBexlbdrn7Hb8d8ApoCZyKw=</ds:DigestValue>
 </ds:Reference>
 </ds:SignedInfo>
 <ds:SignatureValue>
-H6na6ym85clJB5F+j+//HeWFyTYGLCkmPEHC7+IfS+S4td2l+AIbQDbCEBrSRJmUCHT3aWnx1+LP
-gyPUi7Oq1x5YN3G+HZ86977sb4YQEg9B9W6c5QyOf1hf8pQwkIhWo0DYqazYBHORGFVNM953zPp6
-po6WZMNU1aL75/8kF7R6L/xPEYnxemhspZHDzv0NdxWezoUC1b5PMPsF6SO50UP9IQDwTo95Fr//
-Hcox1jKSsoHGJ5K9NIMDvizLlupRp/dKTm938rquvIU8IR+DpKzGA1GAwaC7//zB1qOBOVrXtVgy
-Z9nSqy56e8u4+qLbxWrp5Iu+1M20qVMi681TdQ==
+RtJ7rJm270DLx7jRzpXYIjTi63BmBQBO8T8/8OALFWtcR9x6b/uwfkzZjdUgFRn0fFC57QgCWXkw
+BxSY8L/UELu9fyKvPhzQmCHL2lVkROuJsTGw/2VDjPyTKsxA/VVsu4LK2sMiU0MlGhEIvAhz6JSs
++lwiDHQtPhBLqkxq1ariTAI3FTZNMhv4xeGDiKMrqjDx7gpvxIJcmUeiDv/CydmKVPXNgoeK5J/G
+no7mgSpQlOXxkDnx5+wEpW8SZBkMlfOJl70ZxZDhRHDs0+GUkNxfbTmXjoO3pBLpBQWx+DLFzAE+
+60MxA5mgncq7cXvjVfCf2DZFMt4tGjLRhUgH/Q==
 </ds:SignatureValue>
 <ds:KeyInfo>
 <ds:X509Data>
